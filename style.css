@@ -1,0 +1,132 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255, 255, 255, 0.4)), url('image.png'); /* Overlay for opacity */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #000000; /* Indigo color for headings */
+}
+
+.page-heading {
+    color: #000002; /* Indigo color for all page headings */
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #4A5568; /* Neutral gray for paragraph text */
+}
+
+.font-pacifico {
+    font-family: 'Pacifico', cursive; /* Stylish font for "Phoenix Redemption" */
+}
+
+.button-primary,
+.button-schedule {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.button-primary {
+    background-color: #667EEA; /* Indigo button */
+    color: white;
+    padding: 14px 32px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.button-primary:hover {
+    background-color: #5A67D8; /* Darker indigo on hover */
+    transform: scale(1.1);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.mission-box {
+    background: #E3F2FD;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #90CAF9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.box-animate {
+    transition: transform 0.5s ease-in-out;
+}
+
+.box-animate:hover {
+    transform: scale(1.05);
+}
+
+.button-schedule {
+    background-color: #667EEA; /* Indigo button */
+    color: white;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-schedule:hover {
+    background-color: #5A67D8; /* Darker indigo on hover */
+    transform: scale(1.05);
+}
+
+/* Remove the gradient background from #faq */
+#faq {
+    background: none;
+}
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif; /* Clean and modern sans-serif font */
+}
+
+.text-gray-700 {
+    color: #4A5568; /* Neutral gray for text */
+}
+
+.hover\:text-indigo-600:hover {
+    color: #5A67D8; /* Subtle indigo hover effect */
+}
+
+i{
+    color: #4C51BF;
+    font-size: 2rem;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0); /* White background with 80% opacity */
+    padding: 40px 20px; /* Add padding for spacing */
+    border-radius: 12px; /* Optional: Rounded corners */
+    margin: 20px auto; /* Add spacing between sections */
+    max-width: 100vw; /* Optional: Limit the width of sections */
+}
+
+/* Add scroll margin for anchor targets */
+[id] {
+    scroll-margin-top: 100px;
+}
+
